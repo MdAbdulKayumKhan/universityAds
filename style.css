@@ -1,0 +1,33 @@
+body{
+    font-family: 'Domine', serif;
+    margin: 0;
+}
+h1{
+    font-size: 48px;
+}
+section{
+    display: flex;
+    border-bottom: 150px;
+}
+.half-section{
+    width: 50%;
+    margin-left: 2%;
+}
+.half-section img{
+    width: 80%;
+}
+.half-section a{
+    text-decoration: none;
+    background-image: linear-gradient(#FFA132, #FA725C);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+}
+.orange-color{
+    color: orange;
+}
+.welcome-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
